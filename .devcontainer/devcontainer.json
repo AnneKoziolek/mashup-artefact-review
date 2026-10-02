@@ -1,0 +1,8 @@
+{
+  "name": "MASHUP (PPoPP '22) artefact review",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  // Fetches the Zenodo record (md5-checked) into artefact/. No AWS access needed.
+  "postCreateCommand": "python3 .devcontainer/fetch-artefact.py"
+}

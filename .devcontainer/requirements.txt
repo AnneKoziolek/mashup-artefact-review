@@ -1,0 +1,7 @@
+# Imported by the MASHUP code (boto3, paramiko, psutil) or used from the shell
+# (awscli). The artefact README names only boto3 and awscli.
+# Pinned to the last releases that support Python 3.6.
+boto3==1.23.10
+awscli==1.24.10
+paramiko==2.12.0
+psutil==5.9.8
